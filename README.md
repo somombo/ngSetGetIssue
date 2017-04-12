@@ -52,6 +52,7 @@ To reproduce the `ng get` issue run:
 $ docker run -it --rm --name my-ngcli-container my-ngcli-image  /usr/local/bin/ng get apps.0.root
 ```
 Expected Output is `src`
+
 Actual Output is `Value cannot be found.`
 
 To reproduce the `ng set` issue run:
